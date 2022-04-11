@@ -23,7 +23,7 @@ print(cl(banner,"green"))
 print(" ")
 def open_server(path,title,webname):
     main_path = "sites/"+path+"/index.php"
-    domain=path.upper()
+    domain=path.capitalize()
     favicon=f'https://www.google.com/s2/favicons?domain=https://{path}.com'
     with open(r'main.html','r') as file :
         data = file.read()
