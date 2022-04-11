@@ -12,7 +12,8 @@ you can look at the image provided from mrd0x , to read more you can visit : htt
 
 # ✅ hwo to run ?
 
-this framwork is fully guided , you just need to run `bitb.py` file
+this framwork is fully guided , you just need to run `bitb.py` file.
+then just visit the localhost on `127.0.0.1:8080` 
 you can contribute to this open source project . thank you 👍🙌🤗 
 
 # special thanks to  : https://github.com/mrd0x/BITB
