@@ -24,6 +24,6 @@ you can contribute to this open source project . thank you 👍🙌🤗
 ![image](https://user-images.githubusercontent.com/86433380/162841814-bb992b37-3d18-4cfe-a9ce-ba915127d65f.png)
 ![image](https://user-images.githubusercontent.com/86433380/162841831-55d366af-de50-4499-bdfb-47fdfab300fe.png)
 
-# need to work on it to make it something really nice !!
+# need to work on it to make it something really nice !! i know there are lots of bug currently !! 
 # special thanks to  : https://github.com/mrd0x/BITB
 # special thanks to  : https://github.com/darkmidus/HiddenEye
