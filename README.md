@@ -10,7 +10,7 @@ you can look at the image provided from mrd0x , to read more you can visit : htt
 - this framwork is composed of several popular site cloned pages , which are used to trick the user 
 - one can modify the host webiste by adding custom html or css in `index.html` file
 
-# ✅ hwo to run ?
+# ✅ how to run ?
 
 this framwork is fully guided , you just need to run `bitb.py` file.
 then just visit the localhost on `127.0.0.1:8080` 
